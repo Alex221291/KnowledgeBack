@@ -1,0 +1,7 @@
+include:
+  - project: 'ds-knowledge-tests/devops/pipeline'
+    ref: develop
+    file: '/gitlab-ci.yml'
+
+#variables:
+#  NODE_IMAGE: node:18

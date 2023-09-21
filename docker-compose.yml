@@ -1,0 +1,40 @@
+version: '3.4'
+
+networks:
+  dockerapi-dev:
+    driver: bridge
+
+services:
+  dsknowledgetest:
+    depends_on:
+      - "container-postgres"
+    links:
+       - container-postgres
+    image: ${DOCKER_REGISTRY-}dsknowledgetest
+    ports:
+       - 5001:80
+    environment:
+      DB_CONNECTION_STRING: "host=container-postgres;port=5432;database=postgres;username=postgres;password=postgres"
+    build:
+      context: .
+      dockerfile: dsKnowledgeTest/Dockerfile
+    networks:
+      - dockerapi-dev
+
+  container-postgres:
+    image: postgres:11-alpine
+#    restart: always
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data
+    environment:
+        POSTGRES_USER: "postgres"
+        POSTGRES_PASSWORD: "postgres"
+        POSTGRES_DB: "postgres"
+ #     POSTGRES_USER: "admin"
+ #     POSTGRES_PASSWORD: "admin"
+ #     POSTGRES_DB: "DSDatabase"
+    networks:
+      - dockerapi-dev
+
+#volumes:
+#  pgdata:

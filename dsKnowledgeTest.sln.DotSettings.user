@@ -1,0 +1,29 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=952c1589_002D1ce0_002D4730_002D9ef1_002Da214c5aab3d1/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetUserByIdAsync_AllTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.FeedbackServiceTests.CreateAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.FaqServiceTests.CreateAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.FaqServiceTests.GetAllAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.CategoryServiceTests.GetAllCategoriesAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.CategoryServiceTests.GetCategoryByIdAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.CategoryServiceTests.CreateCategoryAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.CategoryServiceTests.EditCategoryAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.CategoryServiceTests.DeleteCategoryAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.TestServiceTests.GetAllTestByCategoryAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.TestServiceTests.CreateTestAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.TestServiceTests.EditTestAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.TestServiceTests.DeleteTestAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.TestServiceTests.SearchTestsAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.QuestionServiceTests.GetAllQuestionForTestAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.QuestionServiceTests.GetQuestionByIdAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.AccountServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.FaqServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.QuestionServiceTests.CreateQuestionAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.QuestionServiceTests.EditQuestionAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.QuestionServiceTests.DeleteQuestionAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.QuestionServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.TestServiceTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.PassedTestServiceTests.GetAllPassedTestsByUserIdAsync_AllTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C7E426E2-AB79-4092-BF61-37DA6834FED2::net6.0::dsKnowledgeTest.Tests.AnsweredQuestionServiceTest.GetAllByPassedTestId_AllTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
